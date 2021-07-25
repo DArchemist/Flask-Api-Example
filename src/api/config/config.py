@@ -2,13 +2,6 @@ class Config(object):
     DEBUG = False
     TESTING = False
     SQLALCHEMY_TRACK_MODIFICATIONS = False
-    MAIL_DEFAULT_SENDER= 'flasktestsapi@gmail.com'
-    MAIL_SERVER= 'smtp.gmail.com'
-    MAIL_PORT= 465
-    MAIL_USERNAME= 'flasktestsapi@gmail.com'
-    MAIL_PASSWORD= 'StevenUniverseIsTheBest'
-    MAIL_USE_TLS= False
-    MAIL_USE_SSL= True
     JWT_SECRET_KEY = b'_5#y2L"F4Q8z\n\xec]/'
     UPLOAD_FOLDER= 'images'
 
